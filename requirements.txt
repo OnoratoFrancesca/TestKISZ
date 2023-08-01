@@ -1,0 +1,9 @@
+streamlit
+openai
+os
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+from statistics import mean
+import textstat
+from langchain.chat_models import AzureChatOpenAI
+from langchain.schema import HumanMessage
