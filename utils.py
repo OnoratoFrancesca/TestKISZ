@@ -34,13 +34,13 @@ def ask_openai(
 def ask_azure(
     #we tell the model to answer our question using the results from the query_message as source of information
     query: str,
-    deployment: str = "test1",
+    deployment: str = "gpt-35-turbo_SZ",
     #api_key: str=""
 ):
 
     DEPLOYMENT_NAME = "chat"
     model = AzureChatOpenAI(
-            openai_api_base="https://azureresource1.openai.azure.com/",
+            openai_api_base="https://dtc-genai-sandbox.openai.azure.com/",
             openai_api_version="2023-05-15",
             deployment_name=deployment,
             openai_api_key=os.environ.get('OPENAI_API_KEY'),
