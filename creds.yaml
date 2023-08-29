@@ -1,0 +1,12 @@
+credentials:
+  usernames:
+    Eviden:
+      name: Eviden
+      password: $2b$12$zOADoAwym2qZ7RezAuz3i.z0lqlV1TLcbeHVZpAZvvcdArmECtVMW
+    SWMH:
+      name: SWMH
+      password: $2b$12$2pYSb373JSc.S99odF//MOeWJFsZaWX3AmEou/NRkFiNm6b5UVM4u
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
